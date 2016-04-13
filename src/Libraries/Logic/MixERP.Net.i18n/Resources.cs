@@ -363,6 +363,39 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Cannot process salary when the employee has multiple salary taxes.
+		/// </summary>
+		public static string P4001 
+		{
+			get
+			{
+				return Get("P4001");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Cannot process salary when the employee has multiple employment taxes.
+		/// </summary>
+		public static string P4002 
+		{
+			get
+			{
+				return Get("P4002");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Cannot post salary because the net payment is less than zero.
+		/// </summary>
+		public static string P4003 
+		{
+			get
+			{
+				return Get("P4003");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Exchange rate between the currencies was not found.
 		/// </summary>
 		public static string P4010 
@@ -381,6 +414,39 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("P4020");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Cannot merge transactions of different parties into a single batch. Please try again.
+		/// </summary>
+		public static string P4021 
+		{
+			get
+			{
+				return Get("P4021");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for The selected transactions contain items which have already been merged. Please try again.
+		/// </summary>
+		public static string P4022 
+		{
+			get
+			{
+				return Get("P4022");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Cannot merge transactions having incompatible tax types. Please try again.
+		/// </summary>
+		public static string P4023 
+		{
+			get
+			{
+				return Get("P4023");
 			}
 		}
 		
@@ -1451,6 +1517,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Create education levels applicable to your country and industry.
+		/// </summary>
+		public static string CreateEducationLevelsDescription 
+		{
+			get
+			{
+				return Get("CreateEducationLevelsDescription");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Fiscal year is an accounting period of 12 months, used to prepare financial statements.
 		/// </summary>
 		public static string CreateFiscalYearDescription 
@@ -1627,6 +1704,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Create default entity access policy based on user roles. By default, users have right to access an entity if a menu acesss policy is granted. A negative policy defined here is applicable for all users of the selected role. The explicit <a href="{0}">entity access policy</a> takes precedence over this policy.
+		/// </summary>
+		public static string DefaultEntityAccessPolicy 
+		{
+			get
+			{
+				return Get("DefaultEntityAccessPolicy");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Existing application files were deleted successfully.
 		/// </summary>
 		public static string DeletedApplicationFiles 
@@ -1737,6 +1825,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Create entity access policy for individual users. By default, users have right to access an entity if a menu acesss policy is granted. If a <a href="{0}">default entity access policy</a> was created to restrict access to a group of users, you can still override that policy and provide access permission to a particular user.
+		/// </summary>
+		public static string EntityAccessPolicy 
+		{
+			get
+			{
+				return Get("EntityAccessPolicy");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Extracting the downloaded file.
 		/// </summary>
 		public static string ExtractingDownloadedFile 
@@ -1759,6 +1858,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for You can mark this item with a flag, however you will not be able to see the flags created by other users.
+		/// </summary>
+		public static string FlagDescription 
+		{
+			get
+			{
+				return Get("FlagDescription");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for You can mark this transaction with a flag, however you will not be able to see the flags created by other users.
 		/// </summary>
 		public static string FlagLabel 
@@ -1766,6 +1876,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("FlagLabel");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Flag removed.
+		/// </summary>
+		public static string FlagRemoved 
+		{
+			get
+			{
+				return Get("FlagRemoved");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Flag saved.
+		/// </summary>
+		public static string FlagSaved 
+		{
+			get
+			{
+				return Get("FlagSaved");
 			}
 		}
 		
@@ -1803,6 +1935,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for hrs
+		/// </summary>
+		public static string HoursAbbreviated 
+		{
+			get
+			{
+				return Get("HoursAbbreviated");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Successfully imported {0} items.
+		/// </summary>
+		public static string ImportedNItems 
+		{
+			get
+			{
+				return Get("ImportedNItems");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Your instance of MixERP is up to date.
 		/// </summary>
 		public static string InstanceIsUpToDate 
@@ -1836,6 +1990,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for mins
+		/// </summary>
+		public static string MinutesAbbreviate 
+		{
+			get
+			{
+				return Get("MinutesAbbreviate");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for There are {0} cash repositories in this office.
 		/// </summary>
 		public static string NCashRepositoriesInThisOffice 
@@ -1854,6 +2019,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("NCountySalesTaxesDefined");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for {0} hours
+		/// </summary>
+		public static string NHours 
+		{
+			get
+			{
+				return Get("NHours");
 			}
 		}
 		
@@ -1990,6 +2166,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Filter: {0}
+		/// </summary>
+		public static string NamedFilter 
+		{
+			get
+			{
+				return Get("NamedFilter");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for No additional user found.
 		/// </summary>
 		public static string NoAdditionalUserFound 
@@ -2023,6 +2210,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for No education level defined.
+		/// </summary>
+		public static string NoEducationLevelDefined 
+		{
+			get
+			{
+				return Get("NoEducationLevelDefined");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for No fiscal year defined.
 		/// </summary>
 		public static string NoFiscalYearDefined 
@@ -2030,6 +2228,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("NoFiscalYearDefined");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for No instance of form was found.
+		/// </summary>
+		public static string NoFormFound 
+		{
+			get
+			{
+				return Get("NoFormFound");
 			}
 		}
 		
@@ -2254,6 +2463,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Processing  your CSV file.
+		/// </summary>
+		public static string ProcessingYourCSVFile 
+		{
+			get
+			{
+				return Get("ProcessingYourCSVFile");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Receipt #{0} notification, {1}
 		/// </summary>
 		public static string ReceiptEmailSubject 
@@ -2272,6 +2492,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("ReleaseContainsNoUpdates");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Requesting import. This may take several minutes to complete.
+		/// </summary>
+		public static string RequestingImport 
+		{
+			get
+			{
+				return Get("RequestingImport");
 			}
 		}
 		
@@ -2331,6 +2562,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Rolling back changes.
+		/// </summary>
+		public static string RollingBackChanges 
+		{
+			get
+			{
+				return Get("RollingBackChanges");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for SMTP is disabled.
 		/// </summary>
 		public static string SMTPIsDisabled 
@@ -2386,6 +2628,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for This quotation expired on {0}.
+		/// </summary>
+		public static string SalesQuotationExpired 
+		{
+			get
+			{
+				return Get("SalesQuotationExpired");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Select a flag.
 		/// </summary>
 		public static string SelectAFlag 
@@ -2408,6 +2661,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Successfully processed your file.
+		/// </summary>
+		public static string SuccessfullyProcessedYourFile 
+		{
+			get
+			{
+				return Get("SuccessfullyProcessedYourFile");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for {0} out of {1} tasks completed.
 		/// </summary>
 		public static string TaskCompletedProgress 
@@ -2426,6 +2690,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("TaskCompletedSuccessfully");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Task completed successfully. Refresh the view?
+		/// </summary>
+		public static string TaskCompletedSuccessfullyRefreshView 
+		{
+			get
+			{
+				return Get("TaskCompletedSuccessfullyRefreshView");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Task completed successfully. Return to the view?
+		/// </summary>
+		public static string TaskCompletedSuccessfullyReturnToView 
+		{
+			get
+			{
+				return Get("TaskCompletedSuccessfullyReturnToView");
 			}
 		}
 		
@@ -2595,6 +2881,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Your upload is of invalid file type "{0}". Please try again.
+		/// </summary>
+		public static string UploadInvalidTryAgain 
+		{
+			get
+			{
+				return Get("UploadInvalidTryAgain");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Upload logo.
 		/// </summary>
 		public static string UploadLogo 
@@ -2635,6 +2932,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("VoucherVerificationPolicyDescription");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for {0} years old
+		/// </summary>
+		public static string YearOld 
+		{
+			get
+			{
+				return Get("YearOld");
 			}
 		}
 		
@@ -2818,6 +3126,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for The column "{0}" does not exist or is invalid. Are you sure you want to continue?
+		/// </summary>
+		public static string ColumnInvalidAreYouSure 
+		{
+			get
+			{
+				return Get("ColumnInvalidAreYouSure");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for This will lock client database access during execution. Are you sure you want to execute this action right now?
 		/// </summary>
 		public static string ConfirmAnalyze 
@@ -2887,6 +3206,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("Select");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Access Type Id
+		/// </summary>
+		public static string access_type_id 
+		{
+			get
+			{
+				return Get("access_type_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Access Type Name
+		/// </summary>
+		public static string access_type_name 
+		{
+			get
+			{
+				return Get("access_type_name");
 			}
 		}
 		
@@ -3034,6 +3375,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Allow Access
+		/// </summary>
+		public static string allow_access 
+		{
+			get
+			{
+				return Get("allow_access");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Allow Credit
 		/// </summary>
 		public static string allow_credit 
@@ -3133,6 +3485,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Applied On
+		/// </summary>
+		public static string applied_on 
+		{
+			get
+			{
+				return Get("applied_on");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Applied on Shipping Charge
 		/// </summary>
 		public static string applied_on_shipping_charge 
@@ -3140,6 +3503,61 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("applied_on_shipping_charge");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for As Of
+		/// </summary>
+		public static string as_of 
+		{
+			get
+			{
+				return Get("as_of");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Attribute Code
+		/// </summary>
+		public static string attribute_code 
+		{
+			get
+			{
+				return Get("attribute_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Attribute Id
+		/// </summary>
+		public static string attribute_id 
+		{
+			get
+			{
+				return Get("attribute_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Attribute Name
+		/// </summary>
+		public static string attribute_name 
+		{
+			get
+			{
+				return Get("attribute_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Attribute Value
+		/// </summary>
+		public static string attribute_value 
+		{
+			get
+			{
+				return Get("attribute_value");
 			}
 		}
 		
@@ -3162,6 +3580,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("audit_user_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Auto Deduction Based On Attendance
+		/// </summary>
+		public static string auto_deduction_based_on_attendance 
+		{
+			get
+			{
+				return Get("auto_deduction_based_on_attendance");
 			}
 		}
 		
@@ -3287,6 +3716,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Bank Branch Name
+		/// </summary>
+		public static string bank_branch_name 
+		{
+			get
+			{
+				return Get("bank_branch_name");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Bank Contact Number
 		/// </summary>
 		public static string bank_contact_number 
@@ -3305,6 +3745,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("bank_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Bank Reference Number
+		/// </summary>
+		public static string bank_reference_number 
+		{
+			get
+			{
+				return Get("bank_reference_number");
 			}
 		}
 		
@@ -3342,6 +3793,39 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Began On
+		/// </summary>
+		public static string began_on 
+		{
+			get
+			{
+				return Get("began_on");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Begins From
+		/// </summary>
+		public static string begins_from 
+		{
+			get
+			{
+				return Get("begins_from");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Blog
+		/// </summary>
+		public static string blog 
+		{
+			get
+			{
+				return Get("blog");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Bonus Rate
 		/// </summary>
 		public static string bonus_rate 
@@ -3349,6 +3833,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("bonus_rate");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Bonus Slab
+		/// </summary>
+		public static string bonus_slab 
+		{
+			get
+			{
+				return Get("bonus_slab");
 			}
 		}
 		
@@ -3492,6 +3987,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("can_change_password");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Can Expire
+		/// </summary>
+		public static string can_expire 
+		{
+			get
+			{
+				return Get("can_expire");
 			}
 		}
 		
@@ -3771,6 +4277,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Change Status Code To
+		/// </summary>
+		public static string change_status_code_to 
+		{
+			get
+			{
+				return Get("change_status_code_to");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Change Status To
+		/// </summary>
+		public static string change_status_to 
+		{
+			get
+			{
+				return Get("change_status_to");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Charge Interest
 		/// </summary>
 		public static string charge_interest 
@@ -3892,6 +4420,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Column Name
+		/// </summary>
+		public static string column_name 
+		{
+			get
+			{
+				return Get("column_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Comment
+		/// </summary>
+		public static string comment 
+		{
+			get
+			{
+				return Get("comment");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Commission Rate
 		/// </summary>
 		public static string commision_rate 
@@ -3943,6 +4493,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("compare_unit_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Completed On
+		/// </summary>
+		public static string completed_on 
+		{
+			get
+			{
+				return Get("completed_on");
 			}
 		}
 		
@@ -4196,6 +4757,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("contact_street");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Contract Id
+		/// </summary>
+		public static string contract_id 
+		{
+			get
+			{
+				return Get("contract_id");
 			}
 		}
 		
@@ -4508,6 +5080,72 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Current Department
+		/// </summary>
+		public static string current_department 
+		{
+			get
+			{
+				return Get("current_department");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Current Department Id
+		/// </summary>
+		public static string current_department_id 
+		{
+			get
+			{
+				return Get("current_department_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Current Employment Status Code Id
+		/// </summary>
+		public static string current_employment_status_code_id 
+		{
+			get
+			{
+				return Get("current_employment_status_code_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Current Employment Status Id
+		/// </summary>
+		public static string current_employment_status_id 
+		{
+			get
+			{
+				return Get("current_employment_status_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Current Job Title Id
+		/// </summary>
+		public static string current_job_title_id 
+		{
+			get
+			{
+				return Get("current_job_title_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Current Pay Grade Id
+		/// </summary>
+		public static string current_pay_grade_id 
+		{
+			get
+			{
+				return Get("current_pay_grade_id");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Current Period
 		/// </summary>
 		public static string current_period 
@@ -4515,6 +5153,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("current_period");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Current Role Id
+		/// </summary>
+		public static string current_role_id 
+		{
+			get
+			{
+				return Get("current_role_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Current Shift Id
+		/// </summary>
+		public static string current_shift_id 
+		{
+			get
+			{
+				return Get("current_shift_id");
 			}
 		}
 		
@@ -4541,6 +5201,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Day of Month
+		/// </summary>
+		public static string day_of_month 
+		{
+			get
+			{
+				return Get("day_of_month");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Day of Week
+		/// </summary>
+		public static string day_of_week 
+		{
+			get
+			{
+				return Get("day_of_week");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Debit
 		/// </summary>
 		public static string debit 
@@ -4548,6 +5230,61 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("debit");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Deduction Applicable
+		/// </summary>
+		public static string deduction_applicable 
+		{
+			get
+			{
+				return Get("deduction_applicable");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Deduction Setup Code
+		/// </summary>
+		public static string deduction_setup_code 
+		{
+			get
+			{
+				return Get("deduction_setup_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Deduction Setup Id
+		/// </summary>
+		public static string deduction_setup_id 
+		{
+			get
+			{
+				return Get("deduction_setup_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Deduction Setup Name
+		/// </summary>
+		public static string deduction_setup_name 
+		{
+			get
+			{
+				return Get("deduction_setup_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Default Cash Account
+		/// </summary>
+		public static string default_cash_account 
+		{
+			get
+			{
+				return Get("default_cash_account");
 			}
 		}
 		
@@ -4563,6 +5300,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Default Cash Repository
+		/// </summary>
+		public static string default_cash_repository 
+		{
+			get
+			{
+				return Get("default_cash_repository");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Default Cash Repository Id
 		/// </summary>
 		public static string default_cash_repository_id 
@@ -4570,6 +5318,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("default_cash_repository_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Default Employment Status Code Id
+		/// </summary>
+		public static string default_employment_status_code_id 
+		{
+			get
+			{
+				return Get("default_employment_status_code_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Default Entity Access Id
+		/// </summary>
+		public static string default_entity_access_id 
+		{
+			get
+			{
+				return Get("default_entity_access_id");
 			}
 		}
 		
@@ -4614,6 +5384,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("description");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Desired Resign Date
+		/// </summary>
+		public static string desired_resign_date 
+		{
+			get
+			{
+				return Get("desired_resign_date");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Details
+		/// </summary>
+		public static string details 
+		{
+			get
+			{
+				return Get("details");
 			}
 		}
 		
@@ -4673,6 +5465,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Education Level Id
+		/// </summary>
+		public static string education_level_id 
+		{
+			get
+			{
+				return Get("education_level_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Education Level Name
+		/// </summary>
+		public static string education_level_name 
+		{
+			get
+			{
+				return Get("education_level_name");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Effective From
 		/// </summary>
 		public static string effective_from 
@@ -4680,6 +5494,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("effective_from");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Effective Resignation Date
+		/// </summary>
+		public static string effective_resignation_date 
+		{
+			get
+			{
+				return Get("effective_resignation_date");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Effective Termination Date
+		/// </summary>
+		public static string effective_termination_date 
+		{
+			get
+			{
+				return Get("effective_termination_date");
 			}
 		}
 		
@@ -4706,6 +5542,336 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Email Address
+		/// </summary>
+		public static string email_address 
+		{
+			get
+			{
+				return Get("email_address");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee
+		/// </summary>
+		public static string employee 
+		{
+			get
+			{
+				return Get("employee");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Code
+		/// </summary>
+		public static string employee_code 
+		{
+			get
+			{
+				return Get("employee_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Contribution Rate
+		/// </summary>
+		public static string employee_contribution_rate 
+		{
+			get
+			{
+				return Get("employee_contribution_rate");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Experience Id
+		/// </summary>
+		public static string employee_experience_id 
+		{
+			get
+			{
+				return Get("employee_experience_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Id
+		/// </summary>
+		public static string employee_id 
+		{
+			get
+			{
+				return Get("employee_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Identification Detail Id
+		/// </summary>
+		public static string employee_identification_detail_id 
+		{
+			get
+			{
+				return Get("employee_identification_detail_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Name
+		/// </summary>
+		public static string employee_name 
+		{
+			get
+			{
+				return Get("employee_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Qualification Id
+		/// </summary>
+		public static string employee_qualification_id 
+		{
+			get
+			{
+				return Get("employee_qualification_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Social Network Detail Id
+		/// </summary>
+		public static string employee_social_network_detail_id 
+		{
+			get
+			{
+				return Get("employee_social_network_detail_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Tax Rate
+		/// </summary>
+		public static string employee_tax_rate 
+		{
+			get
+			{
+				return Get("employee_tax_rate");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Type
+		/// </summary>
+		public static string employee_type 
+		{
+			get
+			{
+				return Get("employee_type");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Type Code
+		/// </summary>
+		public static string employee_type_code 
+		{
+			get
+			{
+				return Get("employee_type_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Type Id
+		/// </summary>
+		public static string employee_type_id 
+		{
+			get
+			{
+				return Get("employee_type_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Type Name
+		/// </summary>
+		public static string employee_type_name 
+		{
+			get
+			{
+				return Get("employee_type_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Wage Id
+		/// </summary>
+		public static string employee_wage_id 
+		{
+			get
+			{
+				return Get("employee_wage_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employer Contribution Rate
+		/// </summary>
+		public static string employer_contribution_rate 
+		{
+			get
+			{
+				return Get("employer_contribution_rate");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employer Tax Rate
+		/// </summary>
+		public static string employer_tax_rate 
+		{
+			get
+			{
+				return Get("employer_tax_rate");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Status
+		/// </summary>
+		public static string employment_status 
+		{
+			get
+			{
+				return Get("employment_status");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Status Code
+		/// </summary>
+		public static string employment_status_code 
+		{
+			get
+			{
+				return Get("employment_status_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Status Code Id
+		/// </summary>
+		public static string employment_status_code_id 
+		{
+			get
+			{
+				return Get("employment_status_code_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Status Id
+		/// </summary>
+		public static string employment_status_id 
+		{
+			get
+			{
+				return Get("employment_status_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Status Name
+		/// </summary>
+		public static string employment_status_name 
+		{
+			get
+			{
+				return Get("employment_status_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Tax
+		/// </summary>
+		public static string employment_tax 
+		{
+			get
+			{
+				return Get("employment_tax");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Tax Code
+		/// </summary>
+		public static string employment_tax_code 
+		{
+			get
+			{
+				return Get("employment_tax_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Tax Detail Code
+		/// </summary>
+		public static string employment_tax_detail_code 
+		{
+			get
+			{
+				return Get("employment_tax_detail_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Tax Detail Id
+		/// </summary>
+		public static string employment_tax_detail_id 
+		{
+			get
+			{
+				return Get("employment_tax_detail_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Tax Detail Name
+		/// </summary>
+		public static string employment_tax_detail_name 
+		{
+			get
+			{
+				return Get("employment_tax_detail_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Tax Id
+		/// </summary>
+		public static string employment_tax_id 
+		{
+			get
+			{
+				return Get("employment_tax_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Tax Name
+		/// </summary>
+		public static string employment_tax_name 
+		{
+			get
+			{
+				return Get("employment_tax_name");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Enabled
 		/// </summary>
 		public static string enabled 
@@ -4717,6 +5883,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for End Date
+		/// </summary>
+		public static string end_date 
+		{
+			get
+			{
+				return Get("end_date");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Ended On
+		/// </summary>
+		public static string ended_on 
+		{
+			get
+			{
+				return Get("ended_on");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Ends On
 		/// </summary>
 		public static string ends_on 
@@ -4724,6 +5912,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("ends_on");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Entered By
+		/// </summary>
+		public static string entered_by 
+		{
+			get
+			{
+				return Get("entered_by");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Entity Access Id
+		/// </summary>
+		public static string entity_access_id 
+		{
+			get
+			{
+				return Get("entity_access_id");
 			}
 		}
 		
@@ -4805,6 +6015,105 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Exit Id
+		/// </summary>
+		public static string exit_id 
+		{
+			get
+			{
+				return Get("exit_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Exit Interview Details
+		/// </summary>
+		public static string exit_interview_details 
+		{
+			get
+			{
+				return Get("exit_interview_details");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Exit Type
+		/// </summary>
+		public static string exit_type 
+		{
+			get
+			{
+				return Get("exit_type");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Exit Type Code
+		/// </summary>
+		public static string exit_type_code 
+		{
+			get
+			{
+				return Get("exit_type_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Exit Type Id
+		/// </summary>
+		public static string exit_type_id 
+		{
+			get
+			{
+				return Get("exit_type_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Exit Type Name
+		/// </summary>
+		public static string exit_type_name 
+		{
+			get
+			{
+				return Get("exit_type_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Expense Account
+		/// </summary>
+		public static string expense_account 
+		{
+			get
+			{
+				return Get("expense_account");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Expense Account Id
+		/// </summary>
+		public static string expense_account_id 
+		{
+			get
+			{
+				return Get("expense_account_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Expires On
+		/// </summary>
+		public static string expires_on 
+		{
+			get
+			{
+				return Get("expires_on");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for External Code
 		/// </summary>
 		public static string external_code 
@@ -4834,6 +6143,61 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("fax");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Filter And Value
+		/// </summary>
+		public static string filter_and_value 
+		{
+			get
+			{
+				return Get("filter_and_value");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Filter Condition
+		/// </summary>
+		public static string filter_condition 
+		{
+			get
+			{
+				return Get("filter_condition");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Filter Id
+		/// </summary>
+		public static string filter_id 
+		{
+			get
+			{
+				return Get("filter_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Filter Name
+		/// </summary>
+		public static string filter_name 
+		{
+			get
+			{
+				return Get("filter_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Filter Value
+		/// </summary>
+		public static string filter_value 
+		{
+			get
+			{
+				return Get("filter_value");
 			}
 		}
 		
@@ -4937,6 +6301,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Forward To
+		/// </summary>
+		public static string forward_to 
+		{
+			get
+			{
+				return Get("forward_to");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Frequency
+		/// </summary>
+		public static string frequency 
+		{
+			get
+			{
+				return Get("frequency");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Frequency Code
 		/// </summary>
 		public static string frequency_code 
@@ -5036,6 +6422,39 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Fund Holding Account Id
+		/// </summary>
+		public static string fund_holding_account_id 
+		{
+			get
+			{
+				return Get("fund_holding_account_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Gender Code
+		/// </summary>
+		public static string gender_code 
+		{
+			get
+			{
+				return Get("gender_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Gender Name
+		/// </summary>
+		public static string gender_name 
+		{
+			get
+			{
+				return Get("gender_name");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for GL Head
 		/// </summary>
 		public static string gl_head 
@@ -5065,6 +6484,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("grace_period");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Hard Of Hearing
+		/// </summary>
+		public static string hard_of_hearing 
+		{
+			get
+			{
+				return Get("hard_of_hearing");
 			}
 		}
 		
@@ -5113,6 +6543,39 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Holiday Id
+		/// </summary>
+		public static string holiday_id 
+		{
+			get
+			{
+				return Get("holiday_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Holiday Name
+		/// </summary>
+		public static string holiday_name 
+		{
+			get
+			{
+				return Get("holiday_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Holiding Account
+		/// </summary>
+		public static string holiding_account 
+		{
+			get
+			{
+				return Get("holiding_account");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Hot item
 		/// </summary>
 		public static string hot_item 
@@ -5120,6 +6583,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("hot_item");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Hourly Rate
+		/// </summary>
+		public static string hourly_rate 
+		{
+			get
+			{
+				return Get("hourly_rate");
 			}
 		}
 		
@@ -5153,6 +6627,50 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Identification Number
+		/// </summary>
+		public static string identification_number 
+		{
+			get
+			{
+				return Get("identification_number");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Identification Type
+		/// </summary>
+		public static string identification_type 
+		{
+			get
+			{
+				return Get("identification_type");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Identification Type Code
+		/// </summary>
+		public static string identification_type_code 
+		{
+			get
+			{
+				return Get("identification_type_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Identification Type Name
+		/// </summary>
+		public static string identification_type_name 
+		{
+			get
+			{
+				return Get("identification_type_name");
 			}
 		}
 		
@@ -5197,6 +6715,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("industry_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Institution
+		/// </summary>
+		public static string institution 
+		{
+			get
+			{
+				return Get("institution");
 			}
 		}
 		
@@ -5278,6 +6807,39 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Is Alcoholic
+		/// </summary>
+		public static string is_alcoholic 
+		{
+			get
+			{
+				return Get("is_alcoholic");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Is Aphonic
+		/// </summary>
+		public static string is_aphonic 
+		{
+			get
+			{
+				return Get("is_aphonic");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Is Autistic
+		/// </summary>
+		public static string is_autistic 
+		{
+			get
+			{
+				return Get("is_autistic");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Is Cash
 		/// </summary>
 		public static string is_cash 
@@ -5285,6 +6847,39 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("is_cash");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Is Cognitively Disabled
+		/// </summary>
+		public static string is_cognitively_disabled 
+		{
+			get
+			{
+				return Get("is_cognitively_disabled");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Is Contract
+		/// </summary>
+		public static string is_contract 
+		{
+			get
+			{
+				return Get("is_contract");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Is Credit
+		/// </summary>
+		public static string is_credit 
+		{
+			get
+			{
+				return Get("is_credit");
 			}
 		}
 		
@@ -5307,6 +6902,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("is_default");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Is Default (Admin)
+		/// </summary>
+		public static string is_default_admin 
+		{
+			get
+			{
+				return Get("is_default_admin");
 			}
 		}
 		
@@ -5366,6 +6972,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Is Legally Recognized Marriage
+		/// </summary>
+		public static string is_legally_recognized_marriage 
+		{
+			get
+			{
+				return Get("is_legally_recognized_marriage");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Is Merchant Account
 		/// </summary>
 		public static string is_merchant_account 
@@ -5373,6 +6990,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("is_merchant_account");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Is Overtime
+		/// </summary>
+		public static string is_overtime 
+		{
+			get
+			{
+				return Get("is_overtime");
 			}
 		}
 		
@@ -5421,6 +7049,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Is Smoker
+		/// </summary>
+		public static string is_smoker 
+		{
+			get
+			{
+				return Get("is_smoker");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Is Summary
 		/// </summary>
 		public static string is_summary 
@@ -5454,6 +7093,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Is Taxable
+		/// </summary>
+		public static string is_taxable 
+		{
+			get
+			{
+				return Get("is_taxable");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Is Transaction Node
 		/// </summary>
 		public static string is_transaction_node 
@@ -5461,6 +7111,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("is_transaction_node");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Is Variant
+		/// </summary>
+		public static string is_variant 
+		{
+			get
+			{
+				return Get("is_variant");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Is Variant Of
+		/// </summary>
+		public static string is_variant_of 
+		{
+			get
+			{
+				return Get("is_variant_of");
 			}
 		}
 		
@@ -5652,6 +7324,50 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Item Variant Code
+		/// </summary>
+		public static string item_variant_code 
+		{
+			get
+			{
+				return Get("item_variant_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Item Variant Detail Id
+		/// </summary>
+		public static string item_variant_detail_id 
+		{
+			get
+			{
+				return Get("item_variant_detail_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Item Variant Id
+		/// </summary>
+		public static string item_variant_id 
+		{
+			get
+			{
+				return Get("item_variant_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Item Variant Name
+		/// </summary>
+		public static string item_variant_name 
+		{
+			get
+			{
+				return Get("item_variant_name");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Duplicate item code.
 		/// </summary>
 		public static string items_item_code_uix 
@@ -5681,6 +7397,61 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("items_reorder_quantity_chk");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Job Title
+		/// </summary>
+		public static string job_title 
+		{
+			get
+			{
+				return Get("job_title");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Job Title Code
+		/// </summary>
+		public static string job_title_code 
+		{
+			get
+			{
+				return Get("job_title_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Job Title Id
+		/// </summary>
+		public static string job_title_id 
+		{
+			get
+			{
+				return Get("job_title_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Job Title Name
+		/// </summary>
+		public static string job_title_name 
+		{
+			get
+			{
+				return Get("job_title_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Joined On
+		/// </summary>
+		public static string joined_on 
+		{
+			get
+			{
+				return Get("joined_on");
 			}
 		}
 		
@@ -5916,6 +7687,105 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Leave Application Id
+		/// </summary>
+		public static string leave_application_id 
+		{
+			get
+			{
+				return Get("leave_application_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Leave Benefit
+		/// </summary>
+		public static string leave_benefit 
+		{
+			get
+			{
+				return Get("leave_benefit");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Leave Benefit Code
+		/// </summary>
+		public static string leave_benefit_code 
+		{
+			get
+			{
+				return Get("leave_benefit_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Leave Benefit Id
+		/// </summary>
+		public static string leave_benefit_id 
+		{
+			get
+			{
+				return Get("leave_benefit_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Leave Benefit Name
+		/// </summary>
+		public static string leave_benefit_name 
+		{
+			get
+			{
+				return Get("leave_benefit_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Leave Type
+		/// </summary>
+		public static string leave_type 
+		{
+			get
+			{
+				return Get("leave_type");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Leave Type Code
+		/// </summary>
+		public static string leave_type_code 
+		{
+			get
+			{
+				return Get("leave_type_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Leave Type Id
+		/// </summary>
+		public static string leave_type_id 
+		{
+			get
+			{
+				return Get("leave_type_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Leave Type Name
+		/// </summary>
+		public static string leave_type_name 
+		{
+			get
+			{
+				return Get("leave_type_name");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Length In Centimeters
 		/// </summary>
 		public static string length_in_centimeters 
@@ -5960,6 +7830,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Low Vision
+		/// </summary>
+		public static string low_vision 
+		{
+			get
+			{
+				return Get("low_vision");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Machinable
 		/// </summary>
 		public static string machinable 
@@ -5993,6 +7874,72 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Majors
+		/// </summary>
+		public static string majors 
+		{
+			get
+			{
+				return Get("majors");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Marital Status
+		/// </summary>
+		public static string marital_status 
+		{
+			get
+			{
+				return Get("marital_status");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Marital Status Code
+		/// </summary>
+		public static string marital_status_code 
+		{
+			get
+			{
+				return Get("marital_status_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Marital Status Id
+		/// </summary>
+		public static string marital_status_id 
+		{
+			get
+			{
+				return Get("marital_status_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Marital Status Name
+		/// </summary>
+		public static string marital_status_name 
+		{
+			get
+			{
+				return Get("marital_status_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Max Week Hours
+		/// </summary>
+		public static string max_week_hours 
+		{
+			get
+			{
+				return Get("max_week_hours");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Maximum Credit Amount
 		/// </summary>
 		public static string maximum_credit_amount 
@@ -6011,6 +7958,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("maximum_credit_period");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Maximum Salary
+		/// </summary>
+		public static string maximum_salary 
+		{
+			get
+			{
+				return Get("maximum_salary");
 			}
 		}
 		
@@ -6059,6 +8017,50 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Minimum Salary
+		/// </summary>
+		public static string minimum_salary 
+		{
+			get
+			{
+				return Get("minimum_salary");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Nationality
+		/// </summary>
+		public static string nationality 
+		{
+			get
+			{
+				return Get("nationality");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Nationality Code
+		/// </summary>
+		public static string nationality_code 
+		{
+			get
+			{
+				return Get("nationality_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Nationality Name
+		/// </summary>
+		public static string nationality_name 
+		{
+			get
+			{
+				return Get("nationality_name");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Nick Name
 		/// </summary>
 		public static string nick_name 
@@ -6092,6 +8094,39 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Notice Date
+		/// </summary>
+		public static string notice_date 
+		{
+			get
+			{
+				return Get("notice_date");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Object Name
+		/// </summary>
+		public static string object_name 
+		{
+			get
+			{
+				return Get("object_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Occurs On
+		/// </summary>
+		public static string occurs_on 
+		{
+			get
+			{
+				return Get("occurs_on");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Office
 		/// </summary>
 		public static string office 
@@ -6110,6 +8145,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("office_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Office Hour Id
+		/// </summary>
+		public static string office_hour_id 
+		{
+			get
+			{
+				return Get("office_hour_id");
 			}
 		}
 		
@@ -6165,6 +8211,72 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("opportunity_stage_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Organization Name
+		/// </summary>
+		public static string organization_name 
+		{
+			get
+			{
+				return Get("organization_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Overtime
+		/// </summary>
+		public static string overtime 
+		{
+			get
+			{
+				return Get("overtime");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Overtime Applicable
+		/// </summary>
+		public static string overtime_applicable 
+		{
+			get
+			{
+				return Get("overtime_applicable");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Overtime Hourly Rate
+		/// </summary>
+		public static string overtime_hourly_rate 
+		{
+			get
+			{
+				return Get("overtime_hourly_rate");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Overtime Hours
+		/// </summary>
+		public static string overtime_hours 
+		{
+			get
+			{
+				return Get("overtime_hours");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Overtime Pay Rate
+		/// </summary>
+		public static string overtime_pay_rate 
+		{
+			get
+			{
+				return Get("overtime_pay_rate");
 			}
 		}
 		
@@ -6444,6 +8556,50 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Pay Grade
+		/// </summary>
+		public static string pay_grade 
+		{
+			get
+			{
+				return Get("pay_grade");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Pay Grade Code
+		/// </summary>
+		public static string pay_grade_code 
+		{
+			get
+			{
+				return Get("pay_grade_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Pay Grade Id
+		/// </summary>
+		public static string pay_grade_id 
+		{
+			get
+			{
+				return Get("pay_grade_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Pay Grade Name
+		/// </summary>
+		public static string pay_grade_name 
+		{
+			get
+			{
+				return Get("pay_grade_name");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Payment Card
 		/// </summary>
 		public static string payment_card 
@@ -6532,6 +8688,83 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Payroll Account Id
+		/// </summary>
+		public static string payroll_account_id 
+		{
+			get
+			{
+				return Get("payroll_account_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Pension Fund
+		/// </summary>
+		public static string pension_fund 
+		{
+			get
+			{
+				return Get("pension_fund");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Pension Fund Code
+		/// </summary>
+		public static string pension_fund_code 
+		{
+			get
+			{
+				return Get("pension_fund_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Pension Fund Expense Account Id
+		/// </summary>
+		public static string pension_fund_expense_account_id 
+		{
+			get
+			{
+				return Get("pension_fund_expense_account_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Pension Fund Id
+		/// </summary>
+		public static string pension_fund_id 
+		{
+			get
+			{
+				return Get("pension_fund_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Pension Fund Name
+		/// </summary>
+		public static string pension_fund_name 
+		{
+			get
+			{
+				return Get("pension_fund_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Personal Exemption
+		/// </summary>
+		public static string personal_exemption 
+		{
+			get
+			{
+				return Get("personal_exemption");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Phone
 		/// </summary>
 		public static string phone 
@@ -6539,6 +8772,61 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("phone");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Phone Cell
+		/// </summary>
+		public static string phone_cell 
+		{
+			get
+			{
+				return Get("phone_cell");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Phone Emergency
+		/// </summary>
+		public static string phone_emergency 
+		{
+			get
+			{
+				return Get("phone_emergency");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Phone Emergency2
+		/// </summary>
+		public static string phone_emergency2 
+		{
+			get
+			{
+				return Get("phone_emergency2");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Phone Home
+		/// </summary>
+		public static string phone_home 
+		{
+			get
+			{
+				return Get("phone_home");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Phone Office Extension
+		/// </summary>
+		public static string phone_office_extension 
+		{
+			get
+			{
+				return Get("phone_office_extension");
 			}
 		}
 		
@@ -6583,6 +8871,39 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("policy_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Posted By
+		/// </summary>
+		public static string posted_by 
+		{
+			get
+			{
+				return Get("posted_by");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Posting Account
+		/// </summary>
+		public static string posting_account 
+		{
+			get
+			{
+				return Get("posting_account");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Posting Account Id
+		/// </summary>
+		public static string posting_account_id 
+		{
+			get
+			{
+				return Get("posting_account_id");
 			}
 		}
 		
@@ -6708,6 +9029,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Price Type
+		/// </summary>
+		public static string price_type 
+		{
+			get
+			{
+				return Get("price_type");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Price Type Code
 		/// </summary>
 		public static string price_type_code 
@@ -6814,6 +9146,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("rate");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Reason
+		/// </summary>
+		public static string reason 
+		{
+			get
+			{
+				return Get("reason");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Recurrence Type
+		/// </summary>
+		public static string recurrence_type 
+		{
+			get
+			{
+				return Get("recurrence_type");
 			}
 		}
 		
@@ -7005,6 +9359,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Regular Hours
+		/// </summary>
+		public static string regular_hours 
+		{
+			get
+			{
+				return Get("regular_hours");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Regular Pay Rate
+		/// </summary>
+		public static string regular_pay_rate 
+		{
+			get
+			{
+				return Get("regular_pay_rate");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Relationship Officer Name
 		/// </summary>
 		public static string relationship_officer_name 
@@ -7111,6 +9487,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("repository");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Resignation Id
+		/// </summary>
+		public static string resignation_id 
+		{
+			get
+			{
+				return Get("resignation_id");
 			}
 		}
 		
@@ -7232,6 +9619,182 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("rounding_method_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Deduction Id
+		/// </summary>
+		public static string salary_deduction_id 
+		{
+			get
+			{
+				return Get("salary_deduction_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Frequency Id
+		/// </summary>
+		public static string salary_frequency_id 
+		{
+			get
+			{
+				return Get("salary_frequency_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Frequency Name
+		/// </summary>
+		public static string salary_frequency_name 
+		{
+			get
+			{
+				return Get("salary_frequency_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary From
+		/// </summary>
+		public static string salary_from 
+		{
+			get
+			{
+				return Get("salary_from");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Id
+		/// </summary>
+		public static string salary_id 
+		{
+			get
+			{
+				return Get("salary_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Name
+		/// </summary>
+		public static string salary_name 
+		{
+			get
+			{
+				return Get("salary_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Tax
+		/// </summary>
+		public static string salary_tax 
+		{
+			get
+			{
+				return Get("salary_tax");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Tax Code
+		/// </summary>
+		public static string salary_tax_code 
+		{
+			get
+			{
+				return Get("salary_tax_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Tax Id
+		/// </summary>
+		public static string salary_tax_id 
+		{
+			get
+			{
+				return Get("salary_tax_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Tax Income Bracket Id
+		/// </summary>
+		public static string salary_tax_income_bracket_id 
+		{
+			get
+			{
+				return Get("salary_tax_income_bracket_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Tax Name
+		/// </summary>
+		public static string salary_tax_name 
+		{
+			get
+			{
+				return Get("salary_tax_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary To
+		/// </summary>
+		public static string salary_to 
+		{
+			get
+			{
+				return Get("salary_to");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Type
+		/// </summary>
+		public static string salary_type 
+		{
+			get
+			{
+				return Get("salary_type");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Type Code
+		/// </summary>
+		public static string salary_type_code 
+		{
+			get
+			{
+				return Get("salary_type_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Type Id
+		/// </summary>
+		public static string salary_type_id 
+		{
+			get
+			{
+				return Get("salary_type_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Type Name
+		/// </summary>
+		public static string salary_type_name 
+		{
+			get
+			{
+				return Get("salary_type_name");
 			}
 		}
 		
@@ -7478,6 +10041,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Sales Team
+		/// </summary>
+		public static string sales_team 
+		{
+			get
+			{
+				return Get("sales_team");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Sales Team Code
 		/// </summary>
 		public static string sales_team_code 
@@ -7518,6 +10092,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("sales_verification_limit");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salesperson
+		/// </summary>
+		public static string salesperson 
+		{
+			get
+			{
+				return Get("salesperson");
 			}
 		}
 		
@@ -7566,6 +10151,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Score
+		/// </summary>
+		public static string score 
+		{
+			get
+			{
+				return Get("score");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Self Verification Limit
 		/// </summary>
 		public static string self_verification_limit 
@@ -7595,6 +10191,83 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("selling_price_includes_tax");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Semantic Css Class
+		/// </summary>
+		public static string semantic_css_class 
+		{
+			get
+			{
+				return Get("semantic_css_class");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Service End Date
+		/// </summary>
+		public static string service_end_date 
+		{
+			get
+			{
+				return Get("service_end_date");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Shift
+		/// </summary>
+		public static string shift 
+		{
+			get
+			{
+				return Get("shift");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Shift Code
+		/// </summary>
+		public static string shift_code 
+		{
+			get
+			{
+				return Get("shift_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Shift Id
+		/// </summary>
+		public static string shift_id 
+		{
+			get
+			{
+				return Get("shift_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Shift Name
+		/// </summary>
+		public static string shift_name 
+		{
+			get
+			{
+				return Get("shift_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Shipper
+		/// </summary>
+		public static string shipper 
+		{
+			get
+			{
+				return Get("shipper");
 			}
 		}
 		
@@ -7797,6 +10470,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Social Network Id
+		/// </summary>
+		public static string social_network_id 
+		{
+			get
+			{
+				return Get("social_network_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Social Network Name
+		/// </summary>
+		public static string social_network_name 
+		{
+			get
+			{
+				return Get("social_network_name");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for SST Number
 		/// </summary>
 		public static string sst_number 
@@ -7804,6 +10499,39 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("sst_number");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Standard Deduction
+		/// </summary>
+		public static string standard_deduction 
+		{
+			get
+			{
+				return Get("standard_deduction");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Start Date
+		/// </summary>
+		public static string start_date 
+		{
+			get
+			{
+				return Get("start_date");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Started On
+		/// </summary>
+		public static string started_on 
+		{
+			get
+			{
+				return Get("started_on");
 			}
 		}
 		
@@ -7914,6 +10642,39 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("statement_reference");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Status
+		/// </summary>
+		public static string status 
+		{
+			get
+			{
+				return Get("status");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Status Code
+		/// </summary>
+		public static string status_code 
+		{
+			get
+			{
+				return Get("status_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Status Code Name
+		/// </summary>
+		public static string status_code_name 
+		{
+			get
+			{
+				return Get("status_code_name");
 			}
 		}
 		
@@ -8079,6 +10840,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("tax");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Tax Authority
+		/// </summary>
+		public static string tax_authority 
+		{
+			get
+			{
+				return Get("tax_authority");
 			}
 		}
 		
@@ -8336,6 +11108,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Termination Id
+		/// </summary>
+		public static string termination_id 
+		{
+			get
+			{
+				return Get("termination_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Title
+		/// </summary>
+		public static string title 
+		{
+			get
+			{
+				return Get("title");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for To Days
 		/// </summary>
 		public static string to_days 
@@ -8354,6 +11148,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("total");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Total Days
+		/// </summary>
+		public static string total_days 
+		{
+			get
+			{
+				return Get("total_days");
 			}
 		}
 		
@@ -8380,6 +11185,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Total Years
+		/// </summary>
+		public static string total_years 
+		{
+			get
+			{
+				return Get("total_years");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Tran Code
 		/// </summary>
 		public static string tran_code 
@@ -8402,6 +11218,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Transaction Code
+		/// </summary>
+		public static string transaction_code 
+		{
+			get
+			{
+				return Get("transaction_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Transaction Master Id
+		/// </summary>
+		public static string transaction_master_id 
+		{
+			get
+			{
+				return Get("transaction_master_id");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Transaction Start Date
 		/// </summary>
 		public static string transaction_start_date 
@@ -8409,6 +11247,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("transaction_start_date");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Transaction Timestamp
+		/// </summary>
+		public static string transaction_ts 
+		{
+			get
+			{
+				return Get("transaction_ts");
 			}
 		}
 		
@@ -8490,6 +11339,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for User
+		/// </summary>
+		public static string user 
+		{
+			get
+			{
+				return Get("user");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for User Id
 		/// </summary>
 		public static string user_id 
@@ -8508,6 +11368,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("user_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Uses Wheelchair
+		/// </summary>
+		public static string uses_wheelchair 
+		{
+			get
+			{
+				return Get("uses_wheelchair");
 			}
 		}
 		
@@ -8567,6 +11438,83 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Variant Code
+		/// </summary>
+		public static string variant_code 
+		{
+			get
+			{
+				return Get("variant_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Variant Id
+		/// </summary>
+		public static string variant_id 
+		{
+			get
+			{
+				return Get("variant_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Variant Name
+		/// </summary>
+		public static string variant_name 
+		{
+			get
+			{
+				return Get("variant_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Verification Status Id
+		/// </summary>
+		public static string verification_status_id 
+		{
+			get
+			{
+				return Get("verification_status_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Verified By
+		/// </summary>
+		public static string verified_by 
+		{
+			get
+			{
+				return Get("verified_by");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Verified By User Id
+		/// </summary>
+		public static string verified_by_user_id 
+		{
+			get
+			{
+				return Get("verified_by_user_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Verified On
+		/// </summary>
+		public static string verified_on 
+		{
+			get
+			{
+				return Get("verified_on");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Verify Gl Transactions
 		/// </summary>
 		public static string verify_gl_transactions 
@@ -8596,6 +11544,94 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("verify_sales_transactions");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Wage Processing Id
+		/// </summary>
+		public static string wage_processing_id 
+		{
+			get
+			{
+				return Get("wage_processing_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Wage Setup
+		/// </summary>
+		public static string wage_setup 
+		{
+			get
+			{
+				return Get("wage_setup");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Wage Setup Code
+		/// </summary>
+		public static string wage_setup_code 
+		{
+			get
+			{
+				return Get("wage_setup_code");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Wage Setup Id
+		/// </summary>
+		public static string wage_setup_id 
+		{
+			get
+			{
+				return Get("wage_setup_id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Wage Setup Name
+		/// </summary>
+		public static string wage_setup_name 
+		{
+			get
+			{
+				return Get("wage_setup_name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Website
+		/// </summary>
+		public static string website 
+		{
+			get
+			{
+				return Get("website");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Week Day
+		/// </summary>
+		public static string week_day 
+		{
+			get
+			{
+				return Get("week_day");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Week Day Id
+		/// </summary>
+		public static string week_day_id 
+		{
+			get
+			{
+				return Get("week_day_id");
 			}
 		}
 		
@@ -8633,6 +11669,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for With Disabilities
+		/// </summary>
+		public static string with_disabilities 
+		{
+			get
+			{
+				return Get("with_disabilities");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Zip Code
 		/// </summary>
 		public static string zip_code 
@@ -8640,6 +11687,46 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("zip_code");
+			}
+		}
+	}
+	public class Title
+	{
+		public static string Get(string key)
+		{
+			return ResourceManager.GetString("Title", key);
+		}
+		
+		/// <summary>
+		///   Localized string for Item Variant Details
+		/// </summary>
+		public static string ItemVariantDetails 
+		{
+			get
+			{
+				return Get("ItemVariantDetails");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Variant
+		/// </summary>
+		public static string Variant 
+		{
+			get
+			{
+				return Get("Variant");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Variants
+		/// </summary>
+		public static string Variants 
+		{
+			get
+			{
+				return Get("Variants");
 			}
 		}
 	}
@@ -8849,6 +11936,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Add a Kanban List
+		/// </summary>
+		public static string AddAKanbanList 
+		{
+			get
+			{
+				return Get("AddAKanbanList");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Add New
 		/// </summary>
 		public static string AddNew 
@@ -8856,6 +11954,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("AddNew");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Add New Checklist
+		/// </summary>
+		public static string AddNewChecklist 
+		{
+			get
+			{
+				return Get("AddNewChecklist");
 			}
 		}
 		
@@ -8889,6 +11998,39 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("AddressAndContactInfo");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Address & Contact Information
+		/// </summary>
+		public static string AddressAndContactInformation 
+		{
+			get
+			{
+				return Get("AddressAndContactInformation");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Address Information
+		/// </summary>
+		public static string AddressInformation 
+		{
+			get
+			{
+				return Get("AddressInformation");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Adjustment
+		/// </summary>
+		public static string Adjustment 
+		{
+			get
+			{
+				return Get("Adjustment");
 			}
 		}
 		
@@ -9003,6 +12145,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for And
+		/// </summary>
+		public static string And 
+		{
+			get
+			{
+				return Get("And");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Approve
 		/// </summary>
 		public static string Approve 
@@ -9080,6 +12233,50 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Attendance
+		/// </summary>
+		public static string Attendance 
+		{
+			get
+			{
+				return Get("Attendance");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Attendances
+		/// </summary>
+		public static string Attendances 
+		{
+			get
+			{
+				return Get("Attendances");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Attribute
+		/// </summary>
+		public static string Attribute 
+		{
+			get
+			{
+				return Get("Attribute");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Attributes
+		/// </summary>
+		public static string Attributes 
+		{
+			get
+			{
+				return Get("Attributes");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Authorize
 		/// </summary>
 		public static string Authorize 
@@ -9131,6 +12328,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("AutomaticallyApprovedByWorkflow");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Bill of Materials
+		/// </summary>
+		public static string BOM 
+		{
+			get
+			{
+				return Get("BOM");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Bill of Materials Verification
+		/// </summary>
+		public static string BOMVerification 
+		{
+			get
+			{
+				return Get("BOMVerification");
 			}
 		}
 		
@@ -9234,6 +12453,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Bank Details
+		/// </summary>
+		public static string BankDetails 
+		{
+			get
+			{
+				return Get("BankDetails");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Bank Transaction Code
 		/// </summary>
 		public static string BankTransactionCode 
@@ -9263,6 +12493,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("BaseUnitName");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Bill of Materials
+		/// </summary>
+		public static string BillOfMaterials 
+		{
+			get
+			{
+				return Get("BillOfMaterials");
 			}
 		}
 		
@@ -9509,6 +12750,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for CheckIn Time
+		/// </summary>
+		public static string CheckInTime 
+		{
+			get
+			{
+				return Get("CheckInTime");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for CheckOut Time
+		/// </summary>
+		public static string CheckOutTime 
+		{
+			get
+			{
+				return Get("CheckOutTime");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Checklists
 		/// </summary>
 		public static string Checklists 
@@ -9586,6 +12849,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Column Name
+		/// </summary>
+		public static string ColumnName 
+		{
+			get
+			{
+				return Get("ColumnName");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Comment
 		/// </summary>
 		public static string Comment 
@@ -9641,6 +12915,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Condition
+		/// </summary>
+		public static string Condition 
+		{
+			get
+			{
+				return Get("Condition");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Confidential
 		/// </summary>
 		public static string Confidential 
@@ -9659,6 +12944,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("ConfirmPassword");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Contact Information
+		/// </summary>
+		public static string ContactInformation 
+		{
+			get
+			{
+				return Get("ContactInformation");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Contracts
+		/// </summary>
+		public static string Contracts 
+		{
+			get
+			{
+				return Get("Contracts");
 			}
 		}
 		
@@ -9773,6 +13080,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Create a Flag
+		/// </summary>
+		public static string CreateAFlag 
+		{
+			get
+			{
+				return Get("CreateAFlag");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Create Backup
 		/// </summary>
 		public static string CreateBackup 
@@ -9813,6 +13131,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("CreateCountySalesTax");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Create Education Levels
+		/// </summary>
+		public static string CreateEducationLevels 
+		{
+			get
+			{
+				return Get("CreateEducationLevels");
 			}
 		}
 		
@@ -9861,6 +13190,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Create New
+		/// </summary>
+		public static string CreateNew 
+		{
+			get
+			{
+				return Get("CreateNew");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Create New Fiscal Year
 		/// </summary>
 		public static string CreateNewFiscalYear 
@@ -9879,6 +13219,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("CreateParties");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Create Payslip
+		/// </summary>
+		public static string CreatePayslip 
+		{
+			get
+			{
+				return Get("CreatePayslip");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Create Payslips
+		/// </summary>
+		public static string CreatePayslips 
+		{
+			get
+			{
+				return Get("CreatePayslips");
 			}
 		}
 		
@@ -10268,6 +13630,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Data Import
+		/// </summary>
+		public static string DataImport 
+		{
+			get
+			{
+				return Get("DataImport");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Data Type
 		/// </summary>
 		public static string DataType 
@@ -10323,6 +13696,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Date of Birth
+		/// </summary>
+		public static string DateOfBirth 
+		{
+			get
+			{
+				return Get("DateOfBirth");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Day
 		/// </summary>
 		public static string Day 
@@ -10367,6 +13751,50 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Deduction
+		/// </summary>
+		public static string Deduction 
+		{
+			get
+			{
+				return Get("Deduction");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Deduction Setup
+		/// </summary>
+		public static string DeductionSetup 
+		{
+			get
+			{
+				return Get("DeductionSetup");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Deduction Setups
+		/// </summary>
+		public static string DeductionSetups 
+		{
+			get
+			{
+				return Get("DeductionSetups");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Deductions
+		/// </summary>
+		public static string Deductions 
+		{
+			get
+			{
+				return Get("Deductions");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Default Address
 		/// </summary>
 		public static string DefaultAddress 
@@ -10385,6 +13813,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("DefaultCurrency");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Default Entity Access Policy
+		/// </summary>
+		public static string DefaultEntityAccessPolicy 
+		{
+			get
+			{
+				return Get("DefaultEntityAccessPolicy");
 			}
 		}
 		
@@ -10429,6 +13868,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("DeleteSelected");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Delete This Checklist
+		/// </summary>
+		public static string DeleteThisChecklist 
+		{
+			get
+			{
+				return Get("DeleteThisChecklist");
 			}
 		}
 		
@@ -10594,6 +14044,39 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("DirectSales");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Disassemble
+		/// </summary>
+		public static string Disassemble 
+		{
+			get
+			{
+				return Get("Disassemble");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Disassembly
+		/// </summary>
+		public static string Disassembly 
+		{
+			get
+			{
+				return Get("Disassembly");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Disassembly Verification
+		/// </summary>
+		public static string DisassemblyVerification 
+		{
+			get
+			{
+				return Get("DisassemblyVerification");
 			}
 		}
 		
@@ -10774,6 +14257,39 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Edit This Checklist
+		/// </summary>
+		public static string EditThisChecklist 
+		{
+			get
+			{
+				return Get("EditThisChecklist");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Education Level
+		/// </summary>
+		public static string EducationLevel 
+		{
+			get
+			{
+				return Get("EducationLevel");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Education Levels
+		/// </summary>
+		public static string EducationLevels 
+		{
+			get
+			{
+				return Get("EducationLevels");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Email
 		/// </summary>
 		public static string Email 
@@ -10873,6 +14389,226 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Employee
+		/// </summary>
+		public static string Employee 
+		{
+			get
+			{
+				return Get("Employee");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Exits
+		/// </summary>
+		public static string EmployeeExits 
+		{
+			get
+			{
+				return Get("EmployeeExits");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Experience
+		/// </summary>
+		public static string EmployeeExperience 
+		{
+			get
+			{
+				return Get("EmployeeExperience");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Identification Details
+		/// </summary>
+		public static string EmployeeIdentificationDetails 
+		{
+			get
+			{
+				return Get("EmployeeIdentificationDetails");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Qualification
+		/// </summary>
+		public static string EmployeeQualification 
+		{
+			get
+			{
+				return Get("EmployeeQualification");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Salaries
+		/// </summary>
+		public static string EmployeeSalaries 
+		{
+			get
+			{
+				return Get("EmployeeSalaries");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Salary
+		/// </summary>
+		public static string EmployeeSalary 
+		{
+			get
+			{
+				return Get("EmployeeSalary");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Social Network Details
+		/// </summary>
+		public static string EmployeeSocialNetworkDetails 
+		{
+			get
+			{
+				return Get("EmployeeSocialNetworkDetails");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Type
+		/// </summary>
+		public static string EmployeeType 
+		{
+			get
+			{
+				return Get("EmployeeType");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Types
+		/// </summary>
+		public static string EmployeeTypes 
+		{
+			get
+			{
+				return Get("EmployeeTypes");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Wage
+		/// </summary>
+		public static string EmployeeWage 
+		{
+			get
+			{
+				return Get("EmployeeWage");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employee Wages
+		/// </summary>
+		public static string EmployeeWages 
+		{
+			get
+			{
+				return Get("EmployeeWages");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employees
+		/// </summary>
+		public static string Employees 
+		{
+			get
+			{
+				return Get("Employees");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Information
+		/// </summary>
+		public static string EmploymentInformation 
+		{
+			get
+			{
+				return Get("EmploymentInformation");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Status
+		/// </summary>
+		public static string EmploymentStatus 
+		{
+			get
+			{
+				return Get("EmploymentStatus");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Status Codes
+		/// </summary>
+		public static string EmploymentStatusCodes 
+		{
+			get
+			{
+				return Get("EmploymentStatusCodes");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Statuses
+		/// </summary>
+		public static string EmploymentStatuses 
+		{
+			get
+			{
+				return Get("EmploymentStatuses");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Tax
+		/// </summary>
+		public static string EmploymentTax 
+		{
+			get
+			{
+				return Get("EmploymentTax");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Tax Details
+		/// </summary>
+		public static string EmploymentTaxDetails 
+		{
+			get
+			{
+				return Get("EmploymentTaxDetails");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Employment Taxes
+		/// </summary>
+		public static string EmploymentTaxes 
+		{
+			get
+			{
+				return Get("EmploymentTaxes");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for End of Day Operation
 		/// </summary>
 		public static string EndOfDayOperation 
@@ -10939,6 +14675,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Entity Access Policy
+		/// </summary>
+		public static string EntityAccessPolicy 
+		{
+			get
+			{
+				return Get("EntityAccessPolicy");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Exchange Rate
 		/// </summary>
 		public static string ExchangeRate 
@@ -10972,6 +14719,61 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Exit
+		/// </summary>
+		public static string Exit 
+		{
+			get
+			{
+				return Get("Exit");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Exit Type
+		/// </summary>
+		public static string ExitType 
+		{
+			get
+			{
+				return Get("ExitType");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Exit Types
+		/// </summary>
+		public static string ExitTypes 
+		{
+			get
+			{
+				return Get("ExitTypes");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Exits
+		/// </summary>
+		public static string Exits 
+		{
+			get
+			{
+				return Get("Exits");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Experiences
+		/// </summary>
+		public static string Experiences 
+		{
+			get
+			{
+				return Get("Experiences");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Export
 		/// </summary>
 		public static string Export 
@@ -10979,6 +14781,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("Export");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Export Data
+		/// </summary>
+		public static string ExportData 
+		{
+			get
+			{
+				return Get("ExportData");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Export This Document
+		/// </summary>
+		public static string ExportThisDocument 
+		{
+			get
+			{
+				return Get("ExportThisDocument");
 			}
 		}
 		
@@ -11122,6 +14946,39 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("Filter");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Filter Condition
+		/// </summary>
+		public static string FilterCondition 
+		{
+			get
+			{
+				return Get("FilterCondition");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Filter Name
+		/// </summary>
+		public static string FilterName 
+		{
+			get
+			{
+				return Get("FilterName");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Filter Statement
+		/// </summary>
+		public static string FilterStatement 
+		{
+			get
+			{
+				return Get("FilterStatement");
 			}
 		}
 		
@@ -11291,6 +15148,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for For Date
+		/// </summary>
+		public static string ForDate 
+		{
+			get
+			{
+				return Get("ForDate");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Frequencies
 		/// </summary>
 		public static string Frequencies 
@@ -11353,6 +15221,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("GLHead");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Gender
+		/// </summary>
+		public static string Gender 
+		{
+			get
+			{
+				return Get("Gender");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Genders
+		/// </summary>
+		public static string Genders 
+		{
+			get
+			{
+				return Get("Genders");
 			}
 		}
 		
@@ -11423,6 +15313,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Grid View
+		/// </summary>
+		public static string GridView 
+		{
+			get
+			{
+				return Get("GridView");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Gross Earnings
+		/// </summary>
+		public static string GrossEarnings 
+		{
+			get
+			{
+				return Get("GrossEarnings");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Hide for Now
 		/// </summary>
 		public static string HideForNow 
@@ -11430,6 +15342,39 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("HideForNow");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Holiday
+		/// </summary>
+		public static string Holiday 
+		{
+			get
+			{
+				return Get("Holiday");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Holiday Setup
+		/// </summary>
+		public static string HolidaySetup 
+		{
+			get
+			{
+				return Get("HolidaySetup");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Holidays
+		/// </summary>
+		public static string Holidays 
+		{
+			get
+			{
+				return Get("Holidays");
 			}
 		}
 		
@@ -11456,6 +15401,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Hours Worked
+		/// </summary>
+		public static string HoursWorked 
+		{
+			get
+			{
+				return Get("HoursWorked");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Human Resource Management
+		/// </summary>
+		public static string HumanResourceManagement 
+		{
+			get
+			{
+				return Get("HumanResourceManagement");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Hundredth Name
 		/// </summary>
 		public static string HundredthName 
@@ -11474,6 +15441,50 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("Id");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Identification Details
+		/// </summary>
+		public static string IdentificationDetails 
+		{
+			get
+			{
+				return Get("IdentificationDetails");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Identification Types
+		/// </summary>
+		public static string IdentificationTypes 
+		{
+			get
+			{
+				return Get("IdentificationTypes");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Import
+		/// </summary>
+		public static string Import 
+		{
+			get
+			{
+				return Get("Import");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Import Data
+		/// </summary>
+		public static string ImportData 
+		{
+			get
+			{
+				return Get("ImportData");
 			}
 		}
 		
@@ -11698,6 +15709,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Is Present
+		/// </summary>
+		public static string IsPresent 
+		{
+			get
+			{
+				return Get("IsPresent");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Is System Account
 		/// </summary>
 		public static string IsSystemAccount 
@@ -11764,6 +15786,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Item Information
+		/// </summary>
+		public static string ItemInformation 
+		{
+			get
+			{
+				return Get("ItemInformation");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Item Name
 		/// </summary>
 		public static string ItemName 
@@ -11819,6 +15852,39 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Item Variant
+		/// </summary>
+		public static string ItemVariant 
+		{
+			get
+			{
+				return Get("ItemVariant");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Item Variant Details
+		/// </summary>
+		public static string ItemVariantDetails 
+		{
+			get
+			{
+				return Get("ItemVariantDetails");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Item Variants
+		/// </summary>
+		public static string ItemVariants 
+		{
+			get
+			{
+				return Get("ItemVariants");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Items
 		/// </summary>
 		public static string Items 
@@ -11841,6 +15907,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Job Title
+		/// </summary>
+		public static string JobTitle 
+		{
+			get
+			{
+				return Get("JobTitle");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Job Titles
+		/// </summary>
+		public static string JobTitles 
+		{
+			get
+			{
+				return Get("JobTitles");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Journal Voucher
 		/// </summary>
 		public static string JournalVoucher 
@@ -11859,6 +15947,61 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("JournalVoucherEntry");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Kanban
+		/// </summary>
+		public static string Kanban 
+		{
+			get
+			{
+				return Get("Kanban");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Kanban Id
+		/// </summary>
+		public static string KanbanId 
+		{
+			get
+			{
+				return Get("KanbanId");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Kanban Name
+		/// </summary>
+		public static string KanbanName 
+		{
+			get
+			{
+				return Get("KanbanName");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Kanban View
+		/// </summary>
+		public static string KanbanView 
+		{
+			get
+			{
+				return Get("KanbanView");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Kanbans
+		/// </summary>
+		public static string Kanbans 
+		{
+			get
+			{
+				return Get("Kanbans");
 			}
 		}
 		
@@ -12028,6 +16171,72 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Leave Application
+		/// </summary>
+		public static string LeaveApplication 
+		{
+			get
+			{
+				return Get("LeaveApplication");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Leave Applications
+		/// </summary>
+		public static string LeaveApplications 
+		{
+			get
+			{
+				return Get("LeaveApplications");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Leave Benefit
+		/// </summary>
+		public static string LeaveBenefit 
+		{
+			get
+			{
+				return Get("LeaveBenefit");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Leave Benefits
+		/// </summary>
+		public static string LeaveBenefits 
+		{
+			get
+			{
+				return Get("LeaveBenefits");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Leave Type
+		/// </summary>
+		public static string LeaveType 
+		{
+			get
+			{
+				return Get("LeaveType");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Leave Types
+		/// </summary>
+		public static string LeaveTypes 
+		{
+			get
+			{
+				return Get("LeaveTypes");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for List Items
 		/// </summary>
 		public static string ListItems 
@@ -12046,6 +16255,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("Load");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Loading
+		/// </summary>
+		public static string Loading 
+		{
+			get
+			{
+				return Get("Loading");
 			}
 		}
 		
@@ -12072,6 +16292,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Lunch Deduction
+		/// </summary>
+		public static string LunchDeduction 
+		{
+			get
+			{
+				return Get("LunchDeduction");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Moving Average Cost (MAVCO)
 		/// </summary>
 		public static string MAVCO 
@@ -12083,6 +16314,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Make As Default
+		/// </summary>
+		public static string MakeAsDefault 
+		{
+			get
+			{
+				return Get("MakeAsDefault");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Manage Filters
+		/// </summary>
+		public static string ManageFilters 
+		{
+			get
+			{
+				return Get("ManageFilters");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Manage Profile
 		/// </summary>
 		public static string ManageProfile 
@@ -12090,6 +16343,61 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("ManageProfile");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Manufacture
+		/// </summary>
+		public static string Manufacture 
+		{
+			get
+			{
+				return Get("Manufacture");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Manufacturing
+		/// </summary>
+		public static string Manufacturing 
+		{
+			get
+			{
+				return Get("Manufacturing");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Manufacturing Verification
+		/// </summary>
+		public static string ManufacturingVerification 
+		{
+			get
+			{
+				return Get("ManufacturingVerification");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Marital Status
+		/// </summary>
+		public static string MaritalStatus 
+		{
+			get
+			{
+				return Get("MaritalStatus");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Marital Statuses
+		/// </summary>
+		public static string MaritalStatuses 
+		{
+			get
+			{
+				return Get("MaritalStatuses");
 			}
 		}
 		
@@ -12303,6 +16611,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for My Leave Applications
+		/// </summary>
+		public static string MyLeaveApplications 
+		{
+			get
+			{
+				return Get("MyLeaveApplications");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for My Resignation
+		/// </summary>
+		public static string MyResignation 
+		{
+			get
+			{
+				return Get("MyResignation");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Name
 		/// </summary>
 		public static string Name 
@@ -12310,6 +16640,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("Name");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Nationalities
+		/// </summary>
+		public static string Nationalities 
+		{
+			get
+			{
+				return Get("Nationalities");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Nationality
+		/// </summary>
+		public static string Nationality 
+		{
+			get
+			{
+				return Get("Nationality");
 			}
 		}
 		
@@ -12398,6 +16750,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("No");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Non Taxable Earning
+		/// </summary>
+		public static string NonTaxableEarning 
+		{
+			get
+			{
+				return Get("NonTaxableEarning");
 			}
 		}
 		
@@ -12497,6 +16860,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("OfficeCode");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Office Hour
+		/// </summary>
+		public static string OfficeHour 
+		{
+			get
+			{
+				return Get("OfficeHour");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Office Hours
+		/// </summary>
+		public static string OfficeHours 
+		{
+			get
+			{
+				return Get("OfficeHours");
 			}
 		}
 		
@@ -12611,6 +16996,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Other Information
+		/// </summary>
+		public static string OtherInformation 
+		{
+			get
+			{
+				return Get("OtherInformation");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Other Widgets
 		/// </summary>
 		public static string OtherWidgets 
@@ -12618,6 +17014,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("OtherWidgets");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Overtime Hours
+		/// </summary>
+		public static string OvertimeHours 
+		{
+			get
+			{
+				return Get("OvertimeHours");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Overtime Wage
+		/// </summary>
+		public static string OvertimeWage 
+		{
+			get
+			{
+				return Get("OvertimeWage");
 			}
 		}
 		
@@ -12699,6 +17117,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Party Information
+		/// </summary>
+		public static string PartyInformation 
+		{
+			get
+			{
+				return Get("PartyInformation");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Party Name
 		/// </summary>
 		public static string PartyName 
@@ -12765,6 +17194,61 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Pay Grade
+		/// </summary>
+		public static string PayGrade 
+		{
+			get
+			{
+				return Get("PayGrade");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Pay Grades
+		/// </summary>
+		public static string PayGrades 
+		{
+			get
+			{
+				return Get("PayGrades");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Pay Hours
+		/// </summary>
+		public static string PayHours 
+		{
+			get
+			{
+				return Get("PayHours");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Pay Rate
+		/// </summary>
+		public static string PayRate 
+		{
+			get
+			{
+				return Get("PayRate");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Pay Slip
+		/// </summary>
+		public static string PaySlip 
+		{
+			get
+			{
+				return Get("PaySlip");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Payment Cards
 		/// </summary>
 		public static string PaymentCards 
@@ -12783,6 +17267,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("PaymentTerms");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Pension Fund
+		/// </summary>
+		public static string PensionFund 
+		{
+			get
+			{
+				return Get("PensionFund");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Pension Funds
+		/// </summary>
+		public static string PensionFunds 
+		{
+			get
+			{
+				return Get("PensionFunds");
 			}
 		}
 		
@@ -12838,6 +17344,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("PerpetualInventory");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Personal Information
+		/// </summary>
+		public static string PersonalInformation 
+		{
+			get
+			{
+				return Get("PersonalInformation");
 			}
 		}
 		
@@ -13029,6 +17546,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Price Details
+		/// </summary>
+		public static string PriceDetails 
+		{
+			get
+			{
+				return Get("PriceDetails");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Price Type
 		/// </summary>
 		public static string PriceType 
@@ -13080,6 +17608,61 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("PrintReceipt");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Process Wage
+		/// </summary>
+		public static string ProcessWage 
+		{
+			get
+			{
+				return Get("ProcessWage");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Production Order
+		/// </summary>
+		public static string ProductionOrder 
+		{
+			get
+			{
+				return Get("ProductionOrder");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Production Order Progress
+		/// </summary>
+		public static string ProductionOrderProgress 
+		{
+			get
+			{
+				return Get("ProductionOrderProgress");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Production Order Verification
+		/// </summary>
+		public static string ProductionOrderVerification 
+		{
+			get
+			{
+				return Get("ProductionOrderVerification");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Production Orders
+		/// </summary>
+		public static string ProductionOrders 
+		{
+			get
+			{
+				return Get("ProductionOrders");
 			}
 		}
 		
@@ -13183,6 +17766,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Qualifications
+		/// </summary>
+		public static string Qualifications 
+		{
+			get
+			{
+				return Get("Qualifications");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Quantity
 		/// </summary>
 		public static string Quantity 
@@ -13245,6 +17839,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("Rate");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Rating
+		/// </summary>
+		public static string Rating 
+		{
+			get
+			{
+				return Get("Rating");
 			}
 		}
 		
@@ -13458,6 +18063,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Regular Hours
+		/// </summary>
+		public static string RegularHours 
+		{
+			get
+			{
+				return Get("RegularHours");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Regular Wage
+		/// </summary>
+		public static string RegularWage 
+		{
+			get
+			{
+				return Get("RegularWage");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Reject
 		/// </summary>
 		public static string Reject 
@@ -13509,6 +18136,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("RememberMe");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Remove As Default
+		/// </summary>
+		public static string RemoveAsDefault 
+		{
+			get
+			{
+				return Get("RemoveAsDefault");
 			}
 		}
 		
@@ -13608,6 +18246,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("Reset");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Resignation
+		/// </summary>
+		public static string Resignation 
+		{
+			get
+			{
+				return Get("Resignation");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Resignations
+		/// </summary>
+		public static string Resignations 
+		{
+			get
+			{
+				return Get("Resignations");
 			}
 		}
 		
@@ -13722,6 +18382,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Routing
+		/// </summary>
+		public static string Routing 
+		{
+			get
+			{
+				return Get("Routing");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Row Number
 		/// </summary>
 		public static string RowNumber 
@@ -13773,6 +18444,127 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("SSTNumber");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salaries
+		/// </summary>
+		public static string Salaries 
+		{
+			get
+			{
+				return Get("Salaries");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary
+		/// </summary>
+		public static string Salary 
+		{
+			get
+			{
+				return Get("Salary");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Deductions
+		/// </summary>
+		public static string SalaryDeductions 
+		{
+			get
+			{
+				return Get("SalaryDeductions");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Frequencies
+		/// </summary>
+		public static string SalaryFrequencies 
+		{
+			get
+			{
+				return Get("SalaryFrequencies");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Setup
+		/// </summary>
+		public static string SalarySetup 
+		{
+			get
+			{
+				return Get("SalarySetup");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Tax
+		/// </summary>
+		public static string SalaryTax 
+		{
+			get
+			{
+				return Get("SalaryTax");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Tax Income Bracket
+		/// </summary>
+		public static string SalaryTaxIncomeBracket 
+		{
+			get
+			{
+				return Get("SalaryTaxIncomeBracket");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Tax Income Brackets
+		/// </summary>
+		public static string SalaryTaxIncomeBrackets 
+		{
+			get
+			{
+				return Get("SalaryTaxIncomeBrackets");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Taxes
+		/// </summary>
+		public static string SalaryTaxes 
+		{
+			get
+			{
+				return Get("SalaryTaxes");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Type
+		/// </summary>
+		public static string SalaryType 
+		{
+			get
+			{
+				return Get("SalaryType");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Salary Types
+		/// </summary>
+		public static string SalaryTypes 
+		{
+			get
+			{
+				return Get("SalaryTypes");
 			}
 		}
 		
@@ -14019,6 +18811,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Save this Filter
+		/// </summary>
+		public static string SaveThisFilter 
+		{
+			get
+			{
+				return Get("SaveThisFilter");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Saving
 		/// </summary>
 		public static string Saving 
@@ -14059,6 +18862,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("Select");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Select a Column
+		/// </summary>
+		public static string SelectAColumn 
+		{
+			get
+			{
+				return Get("SelectAColumn");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Select a Filter
+		/// </summary>
+		public static string SelectAFilter 
+		{
+			get
+			{
+				return Get("SelectAFilter");
 			}
 		}
 		
@@ -14305,6 +19130,28 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Shift
+		/// </summary>
+		public static string Shift 
+		{
+			get
+			{
+				return Get("Shift");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Shifts
+		/// </summary>
+		public static string Shifts 
+		{
+			get
+			{
+				return Get("Shifts");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Shipper
 		/// </summary>
 		public static string Shipper 
@@ -14382,6 +19229,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Shipping Information
+		/// </summary>
+		public static string ShippingInformation 
+		{
+			get
+			{
+				return Get("ShippingInformation");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Show
 		/// </summary>
 		public static string Show 
@@ -14444,6 +19302,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("SigningIn");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Social Network Details
+		/// </summary>
+		public static string SocialNetworkDetails 
+		{
+			get
+			{
+				return Get("SocialNetworkDetails");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Social Networks
+		/// </summary>
+		public static string SocialNetworks 
+		{
+			get
+			{
+				return Get("SocialNetworks");
 			}
 		}
 		
@@ -14543,6 +19423,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("StockAdjustment");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Stock Details
+		/// </summary>
+		public static string StockDetails 
+		{
+			get
+			{
+				return Get("StockDetails");
 			}
 		}
 		
@@ -14877,6 +19768,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Taxable Earning
+		/// </summary>
+		public static string TaxableEarning 
+		{
+			get
+			{
+				return Get("TaxableEarning");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Taxable Sales
 		/// </summary>
 		public static string TaxableSales 
@@ -14895,6 +19797,28 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("Tel");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Termination
+		/// </summary>
+		public static string Termination 
+		{
+			get
+			{
+				return Get("Termination");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Terminations
+		/// </summary>
+		public static string Terminations 
+		{
+			get
+			{
+				return Get("Terminations");
 			}
 		}
 		
@@ -15262,6 +20186,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Untitled
+		/// </summary>
+		public static string Untitled 
+		{
+			get
+			{
+				return Get("Untitled");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Update
 		/// </summary>
 		public static string Update 
@@ -15269,6 +20204,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("Update");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Update All
+		/// </summary>
+		public static string UpdateAll 
+		{
+			get
+			{
+				return Get("UpdateAll");
 			}
 		}
 		
@@ -15471,6 +20417,17 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Value
+		/// </summary>
+		public static string Value 
+		{
+			get
+			{
+				return Get("Value");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Value Date
 		/// </summary>
 		public static string ValueDate 
@@ -15478,6 +20435,39 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("ValueDate");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Variant
+		/// </summary>
+		public static string Variant 
+		{
+			get
+			{
+				return Get("Variant");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Variants
+		/// </summary>
+		public static string Variants 
+		{
+			get
+			{
+				return Get("Variants");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Verification
+		/// </summary>
+		public static string Verification 
+		{
+			get
+			{
+				return Get("Verification");
 			}
 		}
 		
@@ -15522,6 +20512,61 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("Verify");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Verify Contracts
+		/// </summary>
+		public static string VerifyContracts 
+		{
+			get
+			{
+				return Get("VerifyContracts");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Verify Exits
+		/// </summary>
+		public static string VerifyExits 
+		{
+			get
+			{
+				return Get("VerifyExits");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Verify Leave Applications
+		/// </summary>
+		public static string VerifyLeaveApplications 
+		{
+			get
+			{
+				return Get("VerifyLeaveApplications");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Verify Resignations
+		/// </summary>
+		public static string VerifyResignations 
+		{
+			get
+			{
+				return Get("VerifyResignations");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Verify Terminations
+		/// </summary>
+		public static string VerifyTerminations 
+		{
+			get
+			{
+				return Get("VerifyTerminations");
 			}
 		}
 		
@@ -15757,6 +20802,50 @@ namespace MixERP.Net.i18n.Resources
 		}
 		
 		/// <summary>
+		///   Localized string for Wage
+		/// </summary>
+		public static string Wage 
+		{
+			get
+			{
+				return Get("Wage");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Wage Processing
+		/// </summary>
+		public static string WageProcessing 
+		{
+			get
+			{
+				return Get("WageProcessing");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Wage Setups
+		/// </summary>
+		public static string WageSetups 
+		{
+			get
+			{
+				return Get("WageSetups");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Wages
+		/// </summary>
+		public static string Wages 
+		{
+			get
+			{
+				return Get("Wages");
+			}
+		}
+		
+		/// <summary>
 		///   Localized string for Warning
 		/// </summary>
 		public static string Warning 
@@ -15764,6 +20853,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("Warning");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Was Present
+		/// </summary>
+		public static string WasPresent 
+		{
+			get
+			{
+				return Get("WasPresent");
 			}
 		}
 		
@@ -15874,6 +20974,83 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("WithdrawnTransactions");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Work Center
+		/// </summary>
+		public static string WorkCenter 
+		{
+			get
+			{
+				return Get("WorkCenter");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Work Center Capacity
+		/// </summary>
+		public static string WorkCenterCapacity 
+		{
+			get
+			{
+				return Get("WorkCenterCapacity");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Work Center Cost
+		/// </summary>
+		public static string WorkCenterCost 
+		{
+			get
+			{
+				return Get("WorkCenterCost");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Work Center Costing
+		/// </summary>
+		public static string WorkCenterCosting 
+		{
+			get
+			{
+				return Get("WorkCenterCosting");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Work Center Costs
+		/// </summary>
+		public static string WorkCenterCosts 
+		{
+			get
+			{
+				return Get("WorkCenterCosts");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Work Centers
+		/// </summary>
+		public static string WorkCenters 
+		{
+			get
+			{
+				return Get("WorkCenters");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Work Shifts
+		/// </summary>
+		public static string WorkShifts 
+		{
+			get
+			{
+				return Get("WorkShifts");
 			}
 		}
 		
@@ -16002,6 +21179,17 @@ namespace MixERP.Net.i18n.Resources
 			get
 			{
 				return Get("CannotCreateFlagTransactionTablePrimaryKeyNull");
+			}
+		}
+		
+		/// <summary>
+		///   Localized string for Cannot create this item because you must specify a single variant of "{0}" attribute.
+		/// </summary>
+		public static string CannotCreateVariantHavingMultipleAttributes 
+		{
+			get
+			{
+				return Get("CannotCreateVariantHavingMultipleAttributes");
 			}
 		}
 		

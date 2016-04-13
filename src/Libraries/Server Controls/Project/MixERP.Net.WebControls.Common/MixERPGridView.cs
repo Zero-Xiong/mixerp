@@ -1,27 +1,9 @@
-﻿/********************************************************************************
-Copyright (C) MixERP Inc. (http://mixof.org).
-
-This file is part of MixERP.
-
-MixERP is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, version 2 of the License.
-
-
-MixERP is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with MixERP.  If not, see <http://www.gnu.org/licenses/>.
-***********************************************************************************/
-
-using MixERP.Net.Common;
+﻿using MixERP.Net.Common;
 using MixERP.Net.i18n.Resources;
 using System;
 using System.Globalization;
 using System.Web.UI.WebControls;
+using MixERP.Net.i18n;
 
 namespace MixERP.Net.WebControls.Common
 {
@@ -101,7 +83,8 @@ namespace MixERP.Net.WebControls.Common
 
                                     if (!value.Equals(0))
                                     {
-                                        cell.Text = value.ToString("N", CultureInfo.CurrentCulture);
+                                        CultureInfo culture = CultureManager.GetCurrent();
+                                        cell.Text = value.ToString("C", culture).Replace(culture.NumberFormat.CurrencySymbol, "");
                                     }
                                 }
                                 break;
@@ -112,11 +95,11 @@ namespace MixERP.Net.WebControls.Common
 
                                     if (date.Date == date)
                                     {
-                                        cell.Text = Conversion.TryCastDate(cell.Text).ToString("D", CultureInfo.CurrentCulture);
+                                        cell.Text = Conversion.TryCastDate(cell.Text).ToString("D", CultureManager.GetCurrent());
                                     }
                                     else
                                     {
-                                        cell.Text = Conversion.TryCastDate(cell.Text).ToString("F", CultureInfo.CurrentCulture);
+                                        cell.Text = Conversion.TryCastDate(cell.Text).ToString("F", CultureManager.GetCurrent());
                                     }
                                 }
 

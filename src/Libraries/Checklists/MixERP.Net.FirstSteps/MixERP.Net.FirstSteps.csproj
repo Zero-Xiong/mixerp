@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\FrontEnd\MixERP.Net.FrontEnd\bin\</OutputPath>
+    <OutputPath>..\..\..\FrontEnd\bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -37,6 +37,10 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
@@ -78,10 +82,6 @@
       <Project>{d5a09c22-8f48-4fb2-a14d-c62c8c8fcec0}</Project>
       <Name>MixERP.Net.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Logic\MixERP.Net.Entities\MixERP.Net.Entities.csproj">
-      <Project>{bde918b1-dd9b-41c9-a41f-f3ddec18b6d8}</Project>
-      <Name>MixERP.Net.Entities</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Logic\MixERP.Net.Framework\MixERP.Net.Framework.csproj">
       <Project>{1509332f-ae98-44d9-9072-5bbc59a65fc4}</Project>
       <Name>MixERP.Net.Framework</Name>
@@ -95,7 +95,10 @@
       <Name>PetaPoco</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.Web.UI.WebControls;
 using MixERP.Net.Framework;
+using MixERP.Net.i18n;
 using MixERP.Net.i18n.Resources;
 using Npgsql;
 
@@ -27,16 +29,42 @@ namespace PetaPoco
                     throw new MixERPException(errorMessage, ex);
                 }
 
-                throw;
+                throw new MixERPException(ex.Message, ex);
             }
         }
 
-        public static object Insert(string catalog, object poco)
+        public static IEnumerable<T> Get<T>(string catalog, Sql sql)
         {
             try
             {
                 using (Database db = new Database(GetConnectionString(catalog), ProviderName))
                 {
+                    return db.Query<T>(sql);
+                }
+            }
+            catch (NpgsqlException ex)
+            {
+                if (ex.Code.StartsWith("P"))
+                {
+                    string errorMessage = GetDBErrorResource(ex);
+                    throw new MixERPException(errorMessage, ex);
+                }
+
+                throw new MixERPException(ex.Message, ex);
+            }
+        }
+
+        public static object Insert(string catalog, object poco, string tableName = "", string primaryKeyName = "", bool autoIncrement = true)
+        {
+            try
+            {
+                using (Database db = new Database(GetConnectionString(catalog), ProviderName))
+                {
+                    if (!string.IsNullOrWhiteSpace(tableName) && !string.IsNullOrWhiteSpace(primaryKeyName))
+                    {
+                        return db.Insert(tableName, primaryKeyName, autoIncrement, poco);
+                    }
+
                     return db.Insert(poco);
                 }
             }
@@ -48,16 +76,21 @@ namespace PetaPoco
                     throw new MixERPException(errorMessage, ex);
                 }
 
-                throw;
+                throw new MixERPException(ex.Message, ex);
             }
         }
 
-        public static object Update(string catalog, object poco, object primaryKeyValue)
+        public static object Update(string catalog, object poco, object primaryKeyValue, string tableName = "", string primaryKeyName = "")
         {
             try
             {
                 using (Database db = new Database(GetConnectionString(catalog), ProviderName))
                 {
+                    if (!string.IsNullOrWhiteSpace(tableName) && !string.IsNullOrWhiteSpace(primaryKeyName))
+                    {
+                        return db.Update(tableName, primaryKeyName, poco, primaryKeyValue);
+                    }
+
                     return db.Update(poco, primaryKeyValue);
                 }
             }
@@ -69,7 +102,7 @@ namespace PetaPoco
                     throw new MixERPException(errorMessage, ex);
                 }
 
-                throw;
+                throw new MixERPException(ex.Message, ex);
             }
         }
 
@@ -90,7 +123,28 @@ namespace PetaPoco
                     throw new MixERPException(errorMessage, ex);
                 }
 
-                throw;
+                throw new MixERPException(ex.Message, ex);
+            }
+        }
+
+        public static T Scalar<T>(string catalog, Sql sql)
+        {
+            try
+            {
+                using (Database db = new Database(GetConnectionString(catalog), ProviderName))
+                {
+                    return db.ExecuteScalar<T>(sql);
+                }
+            }
+            catch (NpgsqlException ex)
+            {
+                if (ex.Code.StartsWith("P"))
+                {
+                    string errorMessage = GetDBErrorResource(ex);
+                    throw new MixERPException(errorMessage, ex);
+                }
+
+                throw new MixERPException(ex.Message, ex);
             }
         }
 
@@ -111,15 +165,15 @@ namespace PetaPoco
                     throw new MixERPException(errorMessage, ex);
                 }
 
-                throw;
+                throw new MixERPException(ex.Message, ex);
             }
         }
 
         public static string GetDBErrorResource(NpgsqlException ex)
         {
-            string message = DbErrors.Get(ex.Code);
+            string message = ResourceManager.TryGetResourceFromCache("DbErrors", ex.Code);
 
-            if (message == ex.Code)
+            if (string.IsNullOrWhiteSpace(message) || message == ex.Code)
             {
                 return ex.Message;
             }
